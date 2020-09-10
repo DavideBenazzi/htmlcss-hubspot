@@ -105,3 +105,29 @@
   background: orange;
   float: left;
 }
+/* SEZIONE 2 */
+.img-sez2 {
+  height: 100px;
+  width: 100px;
+  background: red;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-sez2 {
+  height: 100px;
+  width: 300px;
+  background: lightblue;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+/* MIDDLE SEZIONE 2 */
+.mid-sez2 {
+  height: 200px;
+  width: 40%;
+  background: lightgrey;
+  margin: 0 auto;
+}
