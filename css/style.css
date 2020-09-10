@@ -8,7 +8,7 @@
   height: 200px;
   background: lightgrey;
 }
-
+/* RIGA 1 */
 .lingua::after {
   content: '';
   display: table;
@@ -31,6 +31,7 @@
 
 .row1 {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .search {
@@ -58,4 +59,49 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+/* RIGA 2 */
+.row2 {
+  position: relative;
+}
+
+.logo-row2 {
+  height: 50px;
+  width: 50px;
+  background: yellow;
+}
+
+.tendina-row2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* selettori tendina row2 */
+.tendina-row2 li {
+  list-style: none;
+  display: inline-block;
+}
+/* SEZIONE 1 */
+.sezione1::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.sezione1 {
+  height: 300px;
+  width: 100%;
+}
+.col-sez1-sx {
+  height: 300px;
+  width: 50%;
+  background: lightblue;
+  float: left;
+}
+
+.col-sez1-dx {
+  height: 300px;
+  width: 50%;
+  background: orange;
+  float: left;
 }
