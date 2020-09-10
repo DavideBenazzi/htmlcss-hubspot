@@ -3,7 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* HEADER */
+.navfix {
+  height: 200px;
+  background: lightgrey;
+}
 
-body {
-  text-transform: uppercase;
+.lingua::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.tendina {
+  height: 50px;
+  width: 50px;
+  background: red;
+  float: left;
+}
+
+.contactus {
+  height: 50px;
+  width: 50px;
+  background: blue;
+  float: left;
+}
+
+.row1 {
+  position: relative;
+}
+
+.search {
+  height: 50px;
+  width: 50px;
+  background: green;
+  position: absolute;
+  top: 0;
+  right: 100px
+}
+
+.login {
+  height: 50px;
+  width: 50px;
+  background: purple;
+  position: absolute;
+  top: 0;
+  right: 50px
+}
+
+.getfree {
+  height: 50px;
+  width: 50px;
+  background: yellow;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
