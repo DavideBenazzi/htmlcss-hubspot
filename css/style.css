@@ -162,6 +162,7 @@
  width: 100%;
  background: blue;
  text-align: center;
+ padding: 0 20%;
 }
 
 .col-sx-sez2 {
@@ -176,6 +177,7 @@
   width: 20%;
   background: lightgrey;
   float: left;
+  margin: 0 5%;
 }
 
 .col-dx-sez2 {
@@ -186,6 +188,7 @@
 
 }
 /* INTERNO DELLE COLONNE */
+/* colonna sx */
 .immcol-sx-sez2 {
   height: 100px;
   width: 100px;
@@ -199,6 +202,42 @@
 }
 
 .btncol-sx-sez2 {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+}
+/* colonna cntr */
+.immcol-cntr-sez2 {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.txtcol-cntr-sez2 {
+  height: 100px;
+  width: 100px;
+  background: green;
+}
+
+.btncol-cntr-sez2 {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+}
+/* colonna dx */
+.immcol-dx-sez2 {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.txtcol-dx-sez2 {
+  height: 100px;
+  width: 100px;
+  background: green;
+}
+
+.btncol-dx-sez2 {
   height: 100px;
   width: 100px;
   background: yellow;
