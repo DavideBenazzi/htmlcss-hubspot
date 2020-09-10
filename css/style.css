@@ -242,3 +242,37 @@
   width: 100px;
   background: yellow;
 }
+/* SEZIONE 3 */
+.sezione3 {
+  height: 400px;
+  width: 100%;
+  background: lightgrey;
+  text-align: center;
+}
+
+.txt-sez3 {
+  height: 50px;
+  width: 500px;
+  background: orange;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.sottotxt-sez3 {
+  height: 50px;
+  width: 500px;
+  background: green;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* GRIGLIA */
+.griglia {
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  display: inline-block;
+  margin: 5px;
+}
+/* SEZIONE 4 */
