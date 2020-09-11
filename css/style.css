@@ -194,8 +194,6 @@ main {
   padding: 15px;
   text-align: center;
   background: #fe775a;
-  top: 20px;
-  right: 50px;
 }
 
 .coprisfondo {
@@ -220,7 +218,7 @@ main {
   background-image: url("../img/Integrations_Illustration.webp");
   background-size: cover;
   display: block;
-  margin: 100px auto 20px;
+  margin: 0 auto 20px;
   position: translateX(-200px);
 }
 
@@ -240,14 +238,14 @@ main {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 50px;
-  font-weight: 700;
 }
 /* MIDDLE SEZIONE 2 */
 .mid-sez2 {
-  height: 200px;
-  width: 40%;
-  background: lightgrey;
-  margin: 0 auto;
+  width: 70%;
+  border-radius: 5px;
+  background: #ffffff;
+  margin: 0 300px;
+  padding:50px 100px;
 }
 
 .mid-sez2 {
@@ -257,18 +255,43 @@ main {
 }
 
 .midmid-sez2 {
-  height: 100px;
-  width: 100px;
-  background: yellow;
+  height: 200px;
+  width: 200px;
   float: left;
 }
 
-.txt-mid-sez2 {
-  height: 100px;
-  width: 200px;
-  background: green;
-  float: left;
+.btn-mid-sez2 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
 }
+
+.btn-mid-sez2 {
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #fe775a;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+  background: #fe775a;
+}
+
+.txt-mid-sez2 {
+  width: 700px;
+  float: right;
+  text-align: left;
+  padding-left: 200px;
+}
+.txt-mid-sez2 h2,
+.txt-mid-sez2 p,
+.txt-mid-sez2 a {
+  color: #32495b;
+}
+
+.txt-mid-sez2 p {
+  margin-left: 100px;
+}
+
 /* 3 COLONNE SEZIONE 2 */
 .col-sez2::after {
   content: '';
