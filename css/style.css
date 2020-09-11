@@ -102,7 +102,7 @@
 .navfix hr {
   color: #32495b;
 }
-/* RIGA 2 */
+/* RIGA 2 */                              /* HEADER SOTTO */
 .row2 {
   height: 80px;
   width: 100%;
@@ -137,29 +137,44 @@
 .tendina-row2 i {
   margin-left: 10px;
 }
+                                      /* MAIN */
 /* SEZIONE 1 */
 .sezione1::after {
   content: '';
   display: table;
   clear: both;
 }
-
+main {
+  padding-top: 162px;
+}
 .sezione1 {
-  height: 300px;
+  height: 620px;
   width: 100%;
+  background-image: url("../img/jumbotron.png");
+  background-position: right bottom;
+  background-size: cover;
 }
-.col-sez1-sx {
-  height: 300px;
+.col-sez1 {
   width: 50%;
-  background: lightblue;
+  text-align: left;
+  padding: 40px 300px;
   float: left;
 }
 
-.col-sez1-dx {
-  height: 300px;
-  width: 50%;
-  background: orange;
-  float: left;
+.col-sez1 h1 {
+  color: #32495b;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.col-sez1:first-child p {
+  color: #32495b;
+  padding: 20px;
+}
+
+.col-sez1:last-child p {
+  color: #32495b;
+  font-size: 15px;
 }
 /* SEZIONE 2 */
 .img-sez2 {
