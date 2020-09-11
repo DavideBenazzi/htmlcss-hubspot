@@ -341,3 +341,20 @@
   background: green;
   float: left;
 }
+/* FOOTER */
+footer {
+  height: 400px;
+  width: 100%;
+  background: lightblue;
+}
+
+.foot-top {
+  width: 100%;
+  background: grey;
+  text-align: center;
+}
+
+.foot-sub {
+  width: 100%;
+  background: red;
+}
