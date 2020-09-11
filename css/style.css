@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 /* HEADER */
 .navfix {
@@ -14,24 +15,34 @@
   display: table;
   clear: both;
 }
+.lingua {
+    padding-left: 100px;
+    padding-top: 30px;
+}
 
 .tendina {
-  height: 50px;
-  width: 50px;
-  background: red;
   float: left;
 }
 
+.tendina i {
+  height: 20px;
+  width: 20px;
+  color: #32495b;
+}
+
 .contactus {
-  height: 50px;
-  width: 50px;
-  background: blue;
+  color: #32495b;
+  text-transform: capitalize;
   float: left;
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 2px solid #32495b;
 }
 
 .row1 {
   position: relative;
-  margin-bottom: 20px;
+  background: #f4f9fd;
+  padding-bottom: 20px;
 }
 
 .search {
@@ -63,6 +74,7 @@
 /* RIGA 2 */
 .row2 {
   position: relative;
+  background: #ffffff;
 }
 
 .logo-row2 {
