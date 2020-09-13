@@ -687,6 +687,8 @@ main {
 }
 
 .img-sez4 img {
+  height: 500px;
+  width: 400px;
   margin-left: 60%;
 }
 
