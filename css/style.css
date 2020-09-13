@@ -706,39 +706,66 @@ main {
   text-align: left;
   color: #ffffff;
 }
+
+.sezione5 li {
+  list-style: none;
+}
+
+.sezione5 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .social::after {
   content: '';
   display: table;
   clear: both;
 }
 
+.social li {
+  float: left;
+}
+
 .col-sx-sx-sez5 {
   height: 400px;
   width: 20%;
-  background: red;
   float: left;
 }
 
 .col-sx-sez5 {
   height: 400px;
   width: 20%;
-  background: blue;
   float: left;
 }
 
 .col-dx-sez5 {
   height: 400px;
   width: 20%;
-  background: yellow;
   float: left;
 }
 
 .col-dx-dx-sez5 {
   height: 400px;
   width: 20%;
-  background: green;
   float: left;
 }
+
+.bot-sez5 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.bot-sez5 {
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  text-align: center;
+  background: #32495b;
+  margin: 50px 0 50px;
+}
+
 /* FOOTER */
 footer {
   height: 400px;
