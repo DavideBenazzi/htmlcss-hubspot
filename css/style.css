@@ -691,7 +691,7 @@ main {
   margin-left: 60%;
 }
 
-/* SEZIONE 5 */
+/* SEZIONE 5 */                 /*PROMEMORIA risolvere PROBLEMA COLORE OPACO FONT*/
 .sezione5::after {
   content: '';
   display: table;
@@ -699,12 +699,18 @@ main {
 }
 
 .sezione5 {
-  height: 600px;
+  height: 500px;
   width: 100%;
   background: #32495b;
   padding-left: 300px;
   text-align: left;
   color: #ffffff;
+  line-height: 40px;
+}
+
+.sezione5 h5 {
+  font-size: 20px;
+  margin: 20px 0 20px;
 }
 
 .sezione5 li {
@@ -714,6 +720,52 @@ main {
 .sezione5 a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 20px;
+}
+
+.col-sx-sx-sez5 {
+  height: 400px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.col-sx-sez5 {
+  height: 400px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.col-dx-sez5 {
+  height: 400px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.col-dx-dx-sez5 {
+  height: 400px;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bot-sez5 a {
+  text-decoration: none;
+  color: #32495b;
+  font-size: 18px;
+}
+
+.bot-sez5 {
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  background: #ffffff;
+  padding: 5px;
+  margin: 30px 0 30px;
 }
 
 .social::after {
@@ -724,62 +776,47 @@ main {
 
 .social li {
   float: left;
+  margin-right: 40px;
 }
-
-.col-sx-sx-sez5 {
-  height: 400px;
-  width: 20%;
-  float: left;
-}
-
-.col-sx-sez5 {
-  height: 400px;
-  width: 20%;
-  float: left;
-}
-
-.col-dx-sez5 {
-  height: 400px;
-  width: 20%;
-  float: left;
-}
-
-.col-dx-dx-sez5 {
-  height: 400px;
-  width: 20%;
-  float: left;
-}
-
-.bot-sez5 a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 15px;
-}
-
-.bot-sez5 {
-  width: 200px;
-  border-radius: 5px;
-  border: 2px solid #ffffff;
-  padding: 15px;
-  text-align: center;
-  background: #32495b;
-  margin: 50px 0 50px;
-}
-
 /* FOOTER */
 footer {
   height: 400px;
   width: 100%;
-  background: lightblue;
+  background: #32495b;
 }
 
 .foot-top {
   width: 100%;
-  background: grey;
   text-align: center;
+  color: #ffffff;
+  padding:0 300px;
+}
+
+.foot-top li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 30px 15px;
+}
+
+.foot-top a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .foot-sub {
   width: 100%;
-  background: red;
+  padding:0 300px;
+}
+
+.foot-sub::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.foot-sub a {
+  text-decoration: none;
+  color: #ffffff;
+  float: right;
+  margin-left: 50px;
 }
