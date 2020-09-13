@@ -181,6 +181,7 @@ main {
   color: #32495b;
   font-size: 10px;
 }
+
 .bot-sez1 a {
   text-decoration: none;
   color: #ffffff;
@@ -600,19 +601,52 @@ main {
 .sezione4 {
   width: 100%;
 }
+                                       /* COLONNA SX SEZ4 */
 .col-sx-sez4 {
-  height: 600px;
-  width: 50%;
-  background: lightblue;
+  height: 1000px;
+  width: 40%;
+  background: #ffffff;
   float: left;
 }
 
+.bot-sez4 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.bot-sez4 {
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #fe775a;
+  padding: 15px;
+  text-align: center;
+  background: #fe775a;
+}
+                                           /* COLONNA DX SEZ 4 */
 .col-dx-sez4 {
-  height: 600px;
-  width: 50%;
-  background: yellow;
+  height: 1000px;
+  width: 60%;
+  background: #ffffff;
   float: left;
 }
+
+.row1-sez4::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.row2-sez4::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.griglia4 {
+  float: left;
+}
+
 /* SEZIONE 5 */
 .sezione5 {
   content: '';
