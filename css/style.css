@@ -25,7 +25,7 @@
 .tendina {
   float: left;
 }
-                                           /* HEADER TOP SX */
+
 .tendina i {
   height: 20px;
   width: 20px;
@@ -53,7 +53,7 @@
   background: #f4f9fd;
   padding-bottom: 20px;
 }
-                                           /* HEADER TOP DX */
+
 .search {
   height: 50px;
   width: 50px;
@@ -103,7 +103,7 @@
 .navfix hr {
   color: #32495b;
 }
-/* RIGA 2 */                              /* HEADER SOTTO */
+/* RIGA 2 */
 .row2 {
   height: 80px;
   width: 100%;
@@ -138,7 +138,6 @@
 .tendina-row2 i {
   margin-left: 10px;
 }
-                                      /* MAIN */
 /* SEZIONE 1 */
 .sezione1::after {
   content: '';
@@ -185,7 +184,7 @@ main {
 .bot-sez1 a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .bot-sez1 {
@@ -603,7 +602,7 @@ main {
   color: #32495b;
   padding-left: 300px;
 }
-                                       /* COLONNA SX SEZ 4 */
+
 .col-sx-sez4 {
   height: 800px;
   width: 30%;
@@ -647,7 +646,7 @@ main {
   background: #fe775a;
   margin: 50px 0 50px;
 }
-                                           /* COLONNA DX SEZ 4 */
+
 .col-dx-sez4 {
   height: 800px;
   width: 70%;
@@ -691,7 +690,7 @@ main {
   margin-left: 60%;
 }
 
-/* SEZIONE 5 */                 /*PROMEMORIA risolvere PROBLEMA COLORE OPACO FONT*/
+/* SEZIONE 5 */
 .sezione5::after {
   content: '';
   display: table;
@@ -780,7 +779,7 @@ main {
 }
 /* FOOTER */
 footer {
-  height: 400px;
+  height: 250px;
   width: 100%;
   background: #32495b;
 }
@@ -804,8 +803,22 @@ footer {
 }
 
 .foot-sub {
+  line-height: 40px;
   width: 100%;
   padding:0 300px;
+  position: relative;
+}
+
+.foot-sub img {
+  height: 100%;
+  width: 200px;
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 0;
+}
+
+.foot-sub h3 {
+  color: #ffffff;
 }
 
 .foot-sub::after {
@@ -814,9 +827,20 @@ footer {
   clear: both;
 }
 
+.colsx-fot {
+  width: 50%;
+  float: left;
+}
+
+.coldx-fot {
+  line-height: 150px;
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
 .foot-sub a {
   text-decoration: none;
   color: #ffffff;
-  float: right;
-  margin-left: 50px;
+  margin-left: 30px;
 }
