@@ -25,26 +25,36 @@ li {
 }
 /* HEADER */
 header {
+  line-height: 80px;
   width: 100%;
   background: #f4f9fd;
   border-bottom: 2px solid #32495b;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
-.navfix {
-  line-height: 80px;
-
+header a,
+.linkheader a,
+header i,
+.linkheader i  {
+    color: #32495b;
 }
 
 .navsx {
   width: 50%;
-  background: yellow;
   text-align: left;
   float: left;
 }
 
+.navsx a:last-child {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 2px solid #899397
+}
+
 .navdx {
   width: 50%;
-  background: yellow;
   text-align: right;
   float: left;
 }
@@ -53,8 +63,45 @@ header {
 .navdx li {
   display: inline-block;
 }
+
+.navdx i {
+  color: #00A4BD;
+  margin-right: 20px;
+}
+
+.bot-head1 a {
+  color: #fe775a;
+  font-size: 20px;
+}
+
+.bot-head1 {
+  line-height: 20px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid #fe775a;
+  padding: 10px;
+  margin:0 15px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.bot-head2 a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.bot-head2 {
+  line-height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #fe775a;
+  padding: 10px;
+  text-align: center;
+  background: #fe775a;
+}
 /* HEADER SECONDA RIGA */
 .linkheader {
+  margin-top: 80px;
   line-height: 80px;
 }
 .linkhsx,
@@ -74,6 +121,7 @@ header {
 
 .linkhdx li {
   display: inline-block;
+  margin-left: 15px;
 }
 
 /* SEZIONE 1 */
