@@ -237,10 +237,8 @@ header i,
 }
                                             /* MIDDLE SEZIONE 2 */
 .mid-sez2 {
-  width: 1300px;
   border-radius: 5px;
   background: #ffffff;
-  margin: 0 300px;
   padding:50px 100px;
   box-shadow: 0 0 4px black;
 }
@@ -327,10 +325,9 @@ header i,
 }
                                             /* 3 COLONNE SEZIONE 2 */
 .col-sez2 {
- width: 100%;
  background: #f4f9fd;
  text-align: center;
- padding: 50px 300px 50px;
+ padding: 50px 0 50px;
  margin-top: 5px;
 }
 
@@ -500,30 +497,20 @@ header i,
 }
 
 .txt-sez3 {
-  width: 1300px;
   display: block;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
   color: #ffffff;
   font-size: 28px;
   padding-top: 50px;
 }
 
 .sottotxt-sez3 {
-  width: 1300px;
   display: block;
-  margin-left: 50%;
-  transform: translateX(-50%);
   color: #ffffff;
   padding: 20px 0 50px;
   line-height: 30px;
 }
                                                  /* GRIGLIA  SEZ 3*/
-.row1-sez3,
-.row2-sez3 {
-  margin-left: 300px;
-}
-
 .griglia {
   height: 300px;
   width: 324px;
