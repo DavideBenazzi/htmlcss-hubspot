@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -23,7 +23,19 @@ li {
   width: 1300px;
   margin: 0 auto;
 }
-/* HEADER */
+
+.bot-head1:hover,
+.bot-head2:hover,
+.bot-sez1:hover,
+.btn-mid-sez2:hover,
+.btncol-sx-sez2:hover,
+.btncol-cntr-sez2:hover,
+.btncol-dx-sez2:hover,
+.bot-sez4:hover,
+.bot-sez5:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+                                                    /* HEADER */
 header {
   line-height: 80px;
   width: 100%;
@@ -99,42 +111,38 @@ header i,
   text-align: center;
   background: #fe775a;
 }
-/* HEADER SECONDA RIGA */
+                                          /*SECONDA RIGA LOGO E LINK */
 .linkheader {
   margin-top: 80px;
   line-height: 80px;
 }
-.linkhsx,
-.linkhdx {
+
+.link-hsx,
+.link-hdx {
   float: left;
 }
 
-.linkhsx {
+.link-hsx {
   width: 50%;
   text-align: left;
 }
 
-.linkhdx {
+.link-hsx img {
+  vertical-align: middle;
+}
+
+.link-hdx {
   width: 50%;
   text-align: right;
 }
 
-.linkhdx li {
+.link-hdx li {
   display: inline-block;
   margin-left: 15px;
 }
-
-/* SEZIONE 1 */
-.sezione1::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-main {
-  padding-top: 162px;
-}
+                                                /* SEZIONE 1 */
 .sezione1 {
-  height: 620px;
+  height: 700px;
   width: 100%;
   background: #fff4ef;
   background-image: url("../img/jumbotron.png");
@@ -146,25 +154,26 @@ main {
 .col-sez1 {
   width: 70%;
   text-align: left;
-  padding: 40px 300px;
+  padding: 100px 300px;
   line-height: 30px;
   float: left;
 }
 
 .col-sez1 h1 {
   color: #32495b;
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 .col-sez1 p {
   color: #32495b;
+  font-size: 20px;
   padding: 30px 0;
 }
 
 .col-sez1 p:last-child {
   color: #32495b;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .bot-sez1 a {
@@ -190,12 +199,13 @@ main {
   position: absolute;
   bottom: 0;
 }
-/* SEZIONE 2 */
+                                              /* SEZIONE 2 */
 .sezione2 {
   background-color: #f4f9fd;
   width: 100%;
   text-align: center;
   color :color: #32495b;
+  padding-top: 50px;
 }
 
 .img-sez2 {
@@ -225,19 +235,14 @@ main {
   line-height: 30px;
   margin-bottom: 50px;
 }
-/* MIDDLE SEZIONE 2 */
+                                            /* MIDDLE SEZIONE 2 */
 .mid-sez2 {
   width: 1300px;
   border-radius: 5px;
   background: #ffffff;
   margin: 0 300px;
   padding:50px 100px;
-}
-
-.mid-sez2 {
-  content: '';
-  display: table;
-  clear: both;
+  box-shadow: 0 0 4px black;
 }
 
 .midmid-sez2 {
@@ -256,7 +261,7 @@ main {
   border-radius: 5px;
   border: 2px solid #fe775a;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   background: #fe775a;
 }
@@ -268,6 +273,7 @@ main {
   padding-left: 200px;
   line-height: 40px;
 }
+
 .txt-mid-sez2 h2,
 .txt-mid-sez2 span,
 .txt-mid-sez2 a {
@@ -295,6 +301,7 @@ main {
 }
 
 #boh h2 {
+  font-size: 20px;
   width: 40%;
   float: left;
   display: inline-block;
@@ -304,7 +311,7 @@ main {
   line-height: 50px;
   width: 60%;
   color: #32495b;
-  margin-top: 25px;
+  margin-top: 19px;
   float: left;
   display: inline-block;
 }
@@ -318,17 +325,13 @@ main {
   color: #32495b;
   margin-right: 10px;
 }
-/* 3 COLONNE SEZIONE 2 */
-.col-sez2::after {
-  content: '';
-  display: table;
-  clear: both;
-}
+                                            /* 3 COLONNE SEZIONE 2 */
 .col-sez2 {
  width: 100%;
  background: #f4f9fd;
  text-align: center;
  padding: 50px 300px 50px;
+ margin-top: 5px;
 }
 
 .col-sx-sez2 {
@@ -339,6 +342,7 @@ main {
   border-radius: 5px;
   color: #32495b;
   padding: 0 30px;
+  box-shadow: 0 0 4px black;
 }
 
 .col-cntr-sez2 {
@@ -350,6 +354,7 @@ main {
   color: #32495b;
   margin: 0 50px;
   padding: 0 30px;
+  box-shadow: 0 0 4px black;
 }
 
 .col-dx-sez2 {
@@ -360,9 +365,10 @@ main {
   border-radius: 5px;
   color: #32495b;
   padding: 0 30px;
+  box-shadow: 0 0 4px black;
 }
-/* INTERNO DELLE COLONNE */
-/* colonna sx */
+                                           /* INTERNO DELLE COLONNE SEZ 2 */
+                                                   /* colonna sx */
 .immcol-sx-sez2 {
   width: 150px;
   margin-left: 50%;
@@ -403,7 +409,7 @@ main {
   text-align: center;
   background: #fe775a;
 }
-/* colonna cntr */
+                                                /* colonna cntr */
 .immcol-cntr-sez2 {
   width: 150px;
   margin-left: 50%;
@@ -444,7 +450,7 @@ main {
   text-align: center;
   background: #fe775a;
 }
-/* colonna dx */
+                                                   /* colonna dx */
 .immcol-dx-sez2 {
   width: 108px;
   margin-left: 50%;
@@ -485,7 +491,7 @@ main {
   text-align: center;
   background: #fe775a;
 }
-/* SEZIONE 3 */
+                                                   /* SEZIONE 3 */
 .sezione3 {
   height: 1000px;
   width: 100%;
@@ -512,23 +518,8 @@ main {
   padding: 20px 0 50px;
   line-height: 30px;
 }
-/* GRIGLIA */
-.row1-sez3::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.row2-sez3::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.row1-sez3 {
-  margin-left: 300px;
-}
-
+                                                 /* GRIGLIA  SEZ 3*/
+.row1-sez3,
 .row2-sez3 {
   margin-left: 300px;
 }
@@ -559,13 +550,7 @@ main {
 .row2-sez3 .griglia {
   border-bottom: none;
 }
-/* SEZIONE 4 */
-.sezione4 {
-  content: '';
-  display: table;
-  clear: both;
-}
-
+                                                    /* SEZIONE 4 */
 .sezione4 {
   width: 100%;
   color: #32495b;
@@ -623,18 +608,6 @@ main {
   float: left;
 }
 
-.row1-sez4::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.row2-sez4::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .griglia4 {
   line-height: 50px;
   width: 25%;
@@ -659,14 +632,7 @@ main {
   width: 400px;
   margin-left: 60%;
 }
-
-/* SEZIONE 5 */
-.sezione5::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
+                                                   /* SEZIONE 5 */
 .sezione5 {
   height: 500px;
   width: 100%;
@@ -683,7 +649,7 @@ main {
 }
 
 .sezione5 a {
-  color: #ffffff;
+  color: #DADEE0;
   font-size: 20px;
 }
 
@@ -726,22 +692,16 @@ main {
   border-radius: 5px;
   border: 2px solid #ffffff;
   text-align: center;
-  background: #ffffff;
+  background: #DADEE0;
   padding: 5px;
   margin: 30px 0 30px;
-}
-
-.social::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .social li {
   float: left;
   margin-right: 40px;
 }
-/* FOOTER */
+                                                 /* FOOTER */
 footer {
   height: 250px;
   width: 100%;
@@ -751,7 +711,7 @@ footer {
 .foot-top {
   width: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #DADEE0;
   padding:0 300px;
 }
 
@@ -761,7 +721,7 @@ footer {
 }
 
 .foot-top a {
-  color: #ffffff;
+  color: #DADEE0;
 }
 
 .foot-sub {
@@ -783,12 +743,6 @@ footer {
   color: #ffffff;
 }
 
-.foot-sub::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .colsx-fot {
   width: 50%;
   float: left;
@@ -802,6 +756,6 @@ footer {
 }
 
 .foot-sub a {
-  color: #ffffff;
+  color: #DADEE0;
   margin-left: 30px;
 }
