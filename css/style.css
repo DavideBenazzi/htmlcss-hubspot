@@ -65,6 +65,10 @@ header i,
   border-left: 2px solid #899397
 }
 
+.navsx a:hover {
+  color: rgba(21, 172, 195, 0.5);
+}
+
 .navdx {
   width: 50%;
   text-align: right;
@@ -139,6 +143,10 @@ header i,
 .link-hdx li {
   display: inline-block;
   margin-left: 15px;
+}
+
+.link-hdx a:hover {
+  color: rgba(21, 172, 195, 0.5);
 }
                                                 /* SEZIONE 1 */
 .sezione1 {
@@ -323,6 +331,10 @@ header i,
   color: #32495b;
   margin-right: 10px;
 }
+
+.txt-mid-sez2 a:hover {
+  color: rgba(21, 172, 195, 0.5);
+}
                                             /* 3 COLONNE SEZIONE 2 */
 .col-sez2 {
  background: #f4f9fd;
@@ -390,6 +402,10 @@ header i,
   color: #32495b;
 }
 
+.txtcol-sx-sez2 a:hover {
+  color: rgba(21, 172, 195, 0.5);
+}
+
 .btncol-sx-sez2 a {
   color: #ffffff;
   font-size: 20px;
@@ -431,6 +447,10 @@ header i,
   color: #32495b;
 }
 
+.txtcol-cntr-sez2 a:hover {
+  color: rgba(21, 172, 195, 0.5);
+}
+
 .btncol-cntr-sez2 a {
   color: #ffffff;
   font-size: 20px;
@@ -470,6 +490,10 @@ header i,
 
 .txtcol-dx-sez2 a {
   color: #32495b;
+}
+
+.txtcol-dx-sez2 a:hover {
+  color: rgba(21, 172, 195, 0.5);
 }
 
 .btncol-dx-sez2 a {
