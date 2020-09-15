@@ -31,9 +31,9 @@ li {
 .btncol-sx-sez2:hover,
 .btncol-cntr-sez2:hover,
 .btncol-dx-sez2:hover,
-.bot-sez4:hover,
-.bot-sez5:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+.bot-sez4:hover {
+  background-color: rgba(254, 119, 90, 0.3);
+  cursor: pointer;
 }
                                                     /* HEADER */
 header {
@@ -695,6 +695,11 @@ header i,
   background: #DADEE0;
   padding: 5px;
   margin: 30px 0 30px;
+}
+
+.bot-sez5:hover {
+  background-color: rgba(218, 222, 224, 0.3);
+  cursor: pointer;
 }
 
 .social li {
